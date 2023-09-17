@@ -590,6 +590,7 @@ section {
   background-image: url("assets/img/bg2.jpeg");
   text-align: center;
   color: #fff;
+  margin-top:10px;
 }
 .counter-text{
   margin: 20px 0px;
@@ -598,7 +599,7 @@ section {
 .cd-timer{
   font-size: 40px;
   text-align: center;
-  margin-left: 60px;
+  margin-left: 120px;
 /*   margin-top: 50px;
    */
 }
