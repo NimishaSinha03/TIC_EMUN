@@ -588,12 +588,12 @@ section {
 --------------------------------------------------------------*/
 .counter-section{
   background: #5c9f24;
+  color: #fff;
 }
 .cd-timer{
-   text-align: center;
+  text-align: center;
   font-size: 60px;
-  margin-top: 30%;
-  background: #5c9f24;
+  margin-top: 0px;
 }
 
 /*--------------------------------------------------------------
