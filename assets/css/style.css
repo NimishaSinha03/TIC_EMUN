@@ -586,11 +586,13 @@ section {
 /*--------------------------------------------------------------
 # Count Down Timer
 --------------------------------------------------------------*/
-
+.counter-section{
+  background: #5c9f24;
+}
 .cd-timer{
    text-align: center;
   font-size: 60px;
-  margin-top: 30%px;
+  margin-top: 30%;
   background: #5c9f24;
 }
 
