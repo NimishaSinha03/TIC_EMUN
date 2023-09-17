@@ -1321,7 +1321,7 @@ section {
   font-size: 48px;
   display: inline-block;
   margin-bottom: 10px;
-  color: #5c9f24;
+  color: #106eea;
 }
 
 .contact .contact-info address,
@@ -1418,7 +1418,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #6ab82a;
+  background: #106eea;
 }
 
 @keyframes animate-loading {
