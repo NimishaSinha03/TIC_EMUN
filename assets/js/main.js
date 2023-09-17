@@ -207,6 +207,40 @@
   /**
    * Initiate Pure Counter 
    */
-  new PureCounter();
+  // new PureCounter();
+
+  
+  // Set the target date and time (November 4, 2024)
+    const targetDate = new Date('2024-11-04T00:00:00Z').getTime();
+
+    // Update the countdown every second
+    const countdown = document.getElementById('countdown');
+    const countdownInterval = setInterval(updateCountdown, 1000);
+
+    function updateCountdown() {
+      const currentDate = new Date().getTime();
+      const timeRemaining = targetDate - currentDate;
+
+      if (timeRemaining <= 0) {
+        clearInterval(countdownInterval);
+        countdown.innerHTML = 'Countdown expired!';
+      } else {
+        const days = Math.floor(timeRemaining / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((timeRemaining % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((timeRemaining % (1000 * 60 * 60)) / (1000 * 60));
+        const seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
+
+        countdown.innerHTML = `
+          ${days} days, 
+          ${hours} hours, 
+          ${minutes} minutes, 
+          ${seconds} seconds
+        `;
+      }
+    }
+
+    // Initial call to update the countdown immediately
+    updateCountdown();
+
 
 })()
