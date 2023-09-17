@@ -591,12 +591,12 @@ section {
   color: #fff;
 }
 .counter-text{
-  margin-top: 20px;
+  margin: 20px 0px;
 }
 .cd-timer{
   text-align: center;
   font-size: 40px;
-  margin: 0 20px;
+  margin: 30px 20px;
 }
 
 /*--------------------------------------------------------------
