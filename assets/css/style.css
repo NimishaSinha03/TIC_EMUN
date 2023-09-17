@@ -1405,11 +1405,11 @@ section {
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  border-color: #5c9f24;
+  border-color: #106eea;
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #5c9f24;
+  background: #106eea;
   border: 0;
   padding: 10px 30px 12px 30px;
   color: #fff;
@@ -1418,7 +1418,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #106eea;
+  background: #5c9f24;
 }
 
 @keyframes animate-loading {
