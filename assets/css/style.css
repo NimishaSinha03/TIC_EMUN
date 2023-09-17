@@ -597,6 +597,7 @@ section {
   text-align: center;
 }
 .cd-timer{
+  width: 100%;
   font-size: 40px;
   text-align: center;
   margin-left: 120px;
