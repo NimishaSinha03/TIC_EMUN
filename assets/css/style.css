@@ -587,7 +587,8 @@ section {
 # Count Down Timer
 --------------------------------------------------------------*/
 .counter-section{
-  background-image: url(assets/img/bg.jfif);
+  background-image: url("assets/img/bg2.jpeg");
+  text-align: center;
   color: #fff;
 }
 .counter-text{
