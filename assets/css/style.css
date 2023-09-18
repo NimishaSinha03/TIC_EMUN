@@ -615,12 +615,11 @@ section {
 .about .content h3 {
   font-weight: 700;
   font-size: 35px;
-  margin-top: 50px;
 }
 
 .about .content p {
   margin-bottom: 0;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .about .content .icon-box {
