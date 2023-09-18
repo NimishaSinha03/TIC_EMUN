@@ -1443,13 +1443,13 @@ section {
     padding: 20px 0;
   }
 }
-/* map */
+/* /* map */
 @media (max-width:991px){
    iframe{
         width: 100%;
         height: 100%;
     }
-}
+} */
 
 /*--------------------------------------------------------------
 # Breadcrumbs
