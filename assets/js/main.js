@@ -211,7 +211,7 @@
 
   
   // Set the target date and time (November 4, 2024)
-    const targetDate = new Date('2024-11-04T00:00:00Z').getTime();
+    const targetDate = new Date('2023-11-04T00:00:00Z').getTime();
 
     // Update the countdown every second
     const countdown = document.getElementById('countdown');
