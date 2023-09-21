@@ -754,6 +754,12 @@ section {
     max-width: 40%;
   }
 }
+/*map  */
+.venue{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
 
 /*--------------------------------------------------------------
 # Services
