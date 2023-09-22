@@ -769,7 +769,12 @@ section {
   justify-content:center;
   align-items:center;
 }
-/*--------------------------------------------------------------
+.image_add
+{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}/*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
 .services .icon-box {
