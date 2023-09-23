@@ -1531,7 +1531,6 @@ section {
   background-size:cover;
   background-repeat:no-repeat;
   background-position:center;
-  position:relative;
 }
   .overlay{
     width :100%;
