@@ -653,7 +653,7 @@ section {
   min-height: 400px;
 }
 
-@media (max-width: 991px) {
+/* @media (max-width: 991px) {
   .about .image {
     text-align: center;
   }
@@ -667,6 +667,31 @@ section {
   .about .image img {
     max-width: 100%;
   }
+} */
+
+/* Default styles for larger screens (e.g., desktop) */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-md-4,
+.col-md-8 {
+    flex: 0 0 auto;
+}
+
+/* Styles for tablets */
+@media (max-width: 768px) {
+    .col-md-4,
+    .col-md-8 {
+        width: 100%;
+        margin-top: 20px; /* Adjust margin for smaller screens */
+    }
+    
+    /* Change the order for mobile */
+    .mobile-reverse-order .col-md-8 {
+        order: -1;
+    }
 }
 
 
