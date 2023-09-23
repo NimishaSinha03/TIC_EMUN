@@ -653,7 +653,7 @@ section {
   min-height: 400px;
 }
 .about .img2 {
-  margin-top: -5%;
+  margin-top: -4%;
 }
 
 /* @media (max-width: 991px) {
@@ -695,9 +695,9 @@ section {
     .mobile-reverse-order .col-md-8 {
         order: -1;
     }
-    .about .img2{
+/*     .about .img2{
         margin-top:5%;
-    }
+    } */
 }
 
 
