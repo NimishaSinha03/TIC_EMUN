@@ -670,7 +670,7 @@ section {
 } */
 
 /* Default styles for larger screens (e.g., desktop) */
-.row {
+.about.row {
     display: flex;
     flex-wrap: wrap;
 }
