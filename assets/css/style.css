@@ -1523,7 +1523,7 @@ section {
 /*  background-image: url("assets/img/emun_bg_img.jpg");  */
 } */
 
-.exsch{
+/* .exsch{
   height:100vh;
   display:flex;
   align-items:center;
@@ -1532,7 +1532,7 @@ section {
   background-position:center;
   background-size:cover;
   background-repeat:no-repeat;
-}
+} */
   .overlay{
     width :100%;
     height :100%;
