@@ -1524,7 +1524,8 @@ section {
 } */
 
 .bgimage{
-  height:100%;
+  height:100vh;
+  position:relative;
 }
   .overlay{
     width :100%;
