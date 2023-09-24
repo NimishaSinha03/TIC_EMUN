@@ -1,3 +1,23 @@
+<?php
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $subject = $_POST['subject'];
+    $message = $_POST['message'];
+
+    $to = 'excellenciamun2023@gmail.com';
+    $headers .= "MIME-Version: 1.0\r\n";
+    $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
+
+    error_reporting(E_ALL);
+    ini_set('display_errors', 1);
+    if (mail($to, $subject, $message, $headers)) {
+        echo "Email sent successfully!";
+    } else {
+        echo "Failed to send email." . error_get_last()['message'];
+    }
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
