@@ -231,9 +231,9 @@
         const seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
 
         countdown.innerHTML = `
-          ${days} Days| 
-          ${hours} Hrs| 
-          ${minutes} Mins| 
+          ${days} Days  | 
+          ${hours} Hrs  | 
+          ${minutes} Mins  | 
           ${seconds} Secs
         `;
       }
