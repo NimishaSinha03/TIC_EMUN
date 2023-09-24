@@ -652,9 +652,9 @@ section {
   background-size: cover;
   min-height: 400px;
 }
-.about .img2 {
+/* .about .img2 {
   margin-top: -5%;
-}
+} */
 
 /* @media (max-width: 991px) {
   .about .image {
