@@ -603,6 +603,8 @@ section {
   width: 100%;
   font-size: 40px;
   text-align: center;
+  border: 2px solid #000;
+  padding: 20px;
 /* margin-left:   90px; */
 /*   margin-top: 50px;
    */
