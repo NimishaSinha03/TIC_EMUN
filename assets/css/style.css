@@ -22,8 +22,8 @@ body {
 /* ---------------------------------------------- */
 
 .wrapper {
-    height: 550px;
-    width: 435px;
+    height: 500px;
+    width: 550px;
     position: relative;
     transform-style: preserve-3d;
     perspective: 1000px;
@@ -59,11 +59,13 @@ body {
     margin-top: 10px;
 }
 
-.wrapper .card img {
-    height: 450px;
-    width: 100%;
+.wrapper .card image {
+    height: 300px;
+    width: 70%;
     object-fit: cover;
     border-radius: 10px;
+   align-item:center;
+  justify-content:center;
 }
 
 .wrapper .back-face {
