@@ -22,20 +22,20 @@ body {
 /* ---------------------------------------------- */
 
 .wrapper {
-    height: 500px;
-    width: 410px;
+    height: 550px;
+    width: 420px;
     position: relative;
     transform-style: preserve-3d;
     perspective: 1000px;
-  display: flex;
-  flex-direction: column;
+/*   display: flex;
+  flex-direction: column; */
 /*   gap: 20px; */
 }
 
 .wrapper .card {
     position: absolute;
-   display: flex;
-  flex-direction: column;
+/*    display: flex;
+  flex-direction: column; */
     height: 100%;
     width: 100%;
     padding: 5px;
@@ -91,6 +91,7 @@ body {
 
 .wrapper .back-face .info {
     padding: 15px;
+   color: black;
 }
 
 .back-face .info .title {
