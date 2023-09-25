@@ -60,9 +60,9 @@ body {
 }
 
 .wrapper .card img {
-    height: 300px;
-    width: 70%;
-/*     object-fit: cover; */
+    height: 450px;
+    width: 100%;
+    object-fit: cover;
     border-radius: 10px;
 }
 
