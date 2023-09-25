@@ -60,7 +60,7 @@ body {
 }
 
 .wrapper .card img {
-    height: 80%;
+    height: 400px;
     width: 100%;
     object-fit: cover;
     border-radius: 10px;
@@ -71,7 +71,7 @@ body {
     align-items: center;
     flex-direction: column;
     transform: rotateY(180deg);
-    background-color: rgba(0, 0, 0, 0.4);
+/*     background-color: rgba(0, 0, 0, 0.4); */
     color: #fff;
 }
 
@@ -85,8 +85,8 @@ body {
     width: 120px;
     padding: 5px;
     border-radius: 5%;
-/*     background: linear-gradient(375deg, #1cc7d0, #2ede98); */
-   background: #fff;
+    background: linear-gradient(375deg, #1cc7d0, #2ede98);
+/*    background: #fff; */
 }
 
 .wrapper .back-face .info {
