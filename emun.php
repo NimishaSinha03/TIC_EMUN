@@ -188,27 +188,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </div>
 
 
-<!--         <div class="row"> 
-<div class="col-lg-6 col-md-6 mb-5">
-        <div class="wrapper">
-            <div class="card front-face">
-            <img class="image" src="assets/img/tic loga white.png">
-            <div class="title">The Indian Conclave</div>
-            </div>
-            <div class="card back-face">
-            <img src="assets/img/tic loga white.png">
-            <div class="info">
-                <div class="title">About The Indian Conclave</div>
-                <hr width="65%">
-                 <p>The Indian conclave is an Educational startup registered under the Ministry of Corporate Affairs and recognized by the Startup India Initiative, which aims at empowering students with knowledge in real-world scenarios and believes in closely working with educational institutions to achieve it. At The Indian Conclave, we empower youth leadership and drive the globalization of Indianness. Through comprehensive academic thinking and exceptional organizational capacity, we foster the growth of young leaders.</p>
-            </div>
-            </div>
-         </div>
-     </div>
-</div>
-    </div>
-        </div>
- -->
         
     <div class="row mobile-reverse-order">
       <!-- Image 1 -->
@@ -764,11 +743,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
               <a class="text-white" href="#gallery">Gallery</a>
             </p>
           </div>
-
-<!--           <hr class="w-100 clearfix d-md-none" /> -->
-
-<!--           <hr class="w-100 clearfix d-md-none" /> -->
-
           <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
             <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
             <p><i class="bi bi-home mr-3"></i> Excellencia Campus, Shamirpet
