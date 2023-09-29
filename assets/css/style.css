@@ -798,8 +798,11 @@ section {
     .mobile-reverse-order .col-md-8 {
         order: -1;
     }
-    .about .img2{
-        margin-top:0px;
+    .about .img2,{
+        margin-top:10px;
+    }
+  .about .img3{
+        margin-top:10px;
     }
 }
 
