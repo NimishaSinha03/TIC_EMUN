@@ -1133,7 +1133,7 @@ section {
   transition: 0.3s;
 }
 
-/* .portfolio .portfolio-wrap .portfolio-links a:hover {
+.portfolio .portfolio-wrap .portfolio-links a:hover {
   color: #8ed851;
 }
 
@@ -1147,7 +1147,7 @@ section {
 
 .portfolio .portfolio-wrap:hover .portfolio-info {
   opacity: 1;
-} */
+}
 
 /*--------------------------------------------------------------
 # Portfolio Details
