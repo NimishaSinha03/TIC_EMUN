@@ -903,6 +903,11 @@ section {
     max-width: 40%;
   }
 }
+
+
+
+
+
 /*map  */
 .venue{
   display:flex;
@@ -932,6 +937,7 @@ section {
     position: relative;
     padding-top: 100px;
     padding-bottom: 60px;
+    background-color: rgba(0,0,0,0.5);
 }
 
 @media (min-width: 992px)
