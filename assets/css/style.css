@@ -1114,12 +1114,13 @@ section {
 
 
 .background-guide{
-  color: #fff;
-    transition: box-shadow 0.3s;
+/*   color: #fff;
+    transition: box-shadow 0.3s; */
+  background: linear-gradient(to bottom, #3498db, #2980b9);
 }
-.background-guide:hover {
+/* .background-guide:hover {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
-}
+} */
 /*--------------------------------------------------------------
 # Why Us
 --------------------------------------------------------------*/
