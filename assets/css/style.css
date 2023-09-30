@@ -910,6 +910,10 @@ section {
   align-items:center;
   position: relative;
 }
+
+.venue .img{
+  background-color: rgba(0, 0, 0, 0.4);
+}
 /* .overlay{
   display:flex;
   justify-content:center;
