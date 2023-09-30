@@ -910,10 +910,6 @@ section {
   align-items:center;
   position: relative;
 }
-.container {
-      display: flex;
-    }
-
     .content {
       flex: 1;
       padding: 20px;
