@@ -1105,7 +1105,7 @@ section {
 
 .card{
 /*   background-color: #3498db; */
-  color: #fff;
+/*   color: #fff; */
     transition: box-shadow 0.3s;
 }
 .card:hover {
