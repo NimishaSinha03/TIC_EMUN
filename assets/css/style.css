@@ -911,11 +911,28 @@ section {
   position: relative;
 }
 
-.venue .row .img{
-/*   background-color: rgba(0, 0, 0, 0.4); */
-   opacity: o.4;
-  transition: opacity 0.5s ease-in-out;
-}
+.image-container {
+      position: relative;
+      display: inline-block;
+    }
+
+    .text-overlay {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white; /* Text color */
+      font-size: 24px; /* Adjust the font size */
+      font-family: Arial, sans-serif; /* Choose the font-family */
+      text-align: center;
+      opacity: 0;
+      transition: opacity 0.5s ease-in-out; /* Adjust the transition duration and timing function */
+    }
+
+    .image-container:hover .text-overlay {
+      opacity: 1; /* Set the opacity to 1 on hover */
+    }
+
 
 
 /* .overlay{
