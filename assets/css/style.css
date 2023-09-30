@@ -911,27 +911,49 @@ section {
   position: relative;
 }
 
-.image-container {
+.hero { 
+    position: relative; 
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('assets/img/exsch.JPG');
+    background-size: cover;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.25);
+}
+
+/* .image-container {
       position: relative;
       display: inline-block;
     }
+
 
     .text-overlay {
       position: absolute;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      color: white; /* Text color */
-      font-size: 24px; /* Adjust the font size */
-      font-family: Arial, sans-serif; /* Choose the font-family */
+      color: white; /* Text color *
+      font-size: 24px; /* Adjust the font size *
+      font-family: Arial, sans-serif; /* Choose the font-family *
       text-align: center;
-      opacity: 0;
-      transition: opacity 0.5s ease-in-out; /* Adjust the transition duration and timing function */
-    }
+/*       opacity: 0; *
+      transition: opacity 0.5s ease-in-out; /* Adjust the transition duration and timing function *
+    } */
 
-    .image-container:hover .text-overlay {
-      opacity: 1; /* Set the opacity to 1 on hover */
-    }
+/*     .image-container:hover .text-overlay {
+      opacity: 1; /* Set the opacity to 1 on hover *
+    } */
 
 
 
