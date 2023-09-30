@@ -1112,6 +1112,14 @@ section {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
+
+.background-guide{
+  color: #fff;
+    transition: box-shadow 0.3s;
+}
+.background-guide:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
 /*--------------------------------------------------------------
 # Why Us
 --------------------------------------------------------------*/
