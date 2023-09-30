@@ -935,13 +935,13 @@ section {
     background: url("../img/exsch.JPG") top center no-repeat;
     background-size: cover;
     position: relative;
-    padding-top: 100px;
+    padding-top: 120px;
     padding-bottom: 60px;
 /*     background-color: rgba(0,0,0,0.5); */
 }
 .venue .venue-info:before {
     content: "";
-    background: rgba(13, 20, 41, 0.8);
+    background: rgba(13, 20, 41, 0.4);
     position: absolute;
     bottom: 0;
     top: 0;
@@ -949,7 +949,7 @@ section {
     right: 0;
 }
 .venue .venue-info h3 {
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 700;
     color: #fff;
 }
