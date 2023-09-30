@@ -948,6 +948,16 @@ section {
     left: 0;
     right: 0;
 }
+.venue .venue-info h3 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.venue .venue-info p {
+    color: #fff;
+    margin-bottom: 0;
+}
 
 @media (min-width: 992px)
 .col-lg-6 {
