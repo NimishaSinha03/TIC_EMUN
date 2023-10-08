@@ -713,7 +713,26 @@
         </div>
 
         <div class="form" id="register">
-          <form method="POST" action="forms/contact.php" role="form" class="php-email-form" name="contact" netlify>
+
+        <?php
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+      $name = $_POST['name'];
+      $email = $_POST['email'];
+      $subject = $_POST['subject'];
+      $message = $_POST['message'];
+    //   $toEmail = 'divyansh@theindianconclave.in';
+      $toEmail = "garvitashukla313@gmail.com";
+      $headers = "From: $email";
+      
+      if (mail($toEmail, $subject, $message, $headers)) {
+        echo '<div class="alert alert-success">Sent successfully!!!</div>';
+      } else {
+        echo '<div class="alert alert-danger">Sorry!!!!</div>';
+      }
+    }
+?>
+          
+          <form method="POST" action="<?php echo $_SERVER["PHP_SELF"];?>" role="form" class="php-email-form" name="contact" netlify>
             <div class="row">
               <div class="col-md-6 form-group">
                 <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
@@ -723,7 +742,7 @@
               </div>
             </div>
             <div class="form-group mt-3">
-              <input action="forms/contact.php" type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              <input  type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
             </div>
             <div class="form-group mt-3">
               <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
