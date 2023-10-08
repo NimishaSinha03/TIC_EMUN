@@ -51,49 +51,49 @@
 <!-- 
 <?php
 
-//   $receiving_email_address = 'excellenciamun2023@gmail.com';
-// if( file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php' )) {
-//     include( $php_email_form );
-//   } else {
-//     die( 'Unable to load the "PHP Email Form" Library!');
-//   }
+  $receiving_email_address = 'excellenciamun2023@gmail.com';
+if( file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php' )) {
+    include( $php_email_form );
+  } else {
+    die( 'Unable to load the "PHP Email Form" Library!');
+  }
 
-// $contact = new PHP_Email_Form;
-//   $contact->ajax = true;
+$contact = new PHP_Email_Form;
+  $contact->ajax = true;
   
-//   $contact->to = $receiving_email_address;
-//   $contact->from_name = $_POST['name'];
-//   $contact->from_email = $_POST['email'];
-//   $contact->subject = $_POST['subject'];
+  $contact->to = $receiving_email_address;
+  $contact->from_name = $_POST['name'];
+  $contact->from_email = $_POST['email'];
+  $contact->subject = $_POST['subject'];
 
 
-// if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-//     $name = $_POST['name'];
-//     $email = $_POST['email'];
-//     $subject = $_POST['subject'];
-//     $message = $_POST['message'];
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $subject = $_POST['subject'];
+    $message = $_POST['message'];
 
-//     $to = 'excellenciamun2023@gmail.com';
-//     $headers .= "MIME-Version: 1.0\r\n";
-//     $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
+    $to = 'excellenciamun2023@gmail.com';
+    $headers .= "MIME-Version: 1.0\r\n";
+    $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
 
-//     error_reporting(E_ALL);
-//     ini_set('display_errors', 1);
-//     if (mail($to, $subject, $message, $headers)) {
-//         echo "Email sent successfully!";
-//     } else {
-//         echo "Failed to send email." . error_get_last()['message'];
-//     }
-// }
+    error_reporting(E_ALL);
+    ini_set('display_errors', 1);
+    if (mail($to, $subject, $message, $headers)) {
+        echo "Email sent successfully!";
+    } else {
+        echo "Failed to send email." . error_get_last()['message'];
+    }
+}
 ?> -->
 
       <?php
-    if ($_SERVER["REQUEST_METHOD"] == "POST") {
+   <!--  if ($_SERVER["REQUEST_METHOD"] == "POST") {
       $name = $_POST['name'];
       $email = $_POST['email'];
       $subject = $_POST['subject'];
       $message = $_POST['message'];
-    //   $toEmail = 'divyansh@theindianconclave.in';
+      // $toEmail = 'divyansh@theindianconclave.in';
       $toEmail = "garvitashukla313@gmail.com";
       $headers = "From: $email";
       
@@ -102,5 +102,5 @@
       } else {
         echo '<div class="alert alert-danger">Sorry!!!!</div>';
       }
-    }
+    } -->
 ?>
