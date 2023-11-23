@@ -206,7 +206,7 @@ body {
   @media screen and (max-width: 600px) {
     .popup {
       width: 370px;
-      height: 480px;
+      height: 180px;
     }
   
     .popScroll h1 {
@@ -218,7 +218,7 @@ body {
   @media screen and (max-width: 400px) {
     .popup {
       width: 350px;
-      height: 480px;
+      height: 180px;
     }
   
     .popScroll h1 {
