@@ -150,13 +150,13 @@ body {
     -o-transition: all 0.1s linear;
   }
   
-  #home {
+/*   #home {
     background: #3d79d0;
   }
   
   #close {
     background: #d21111;
-  }
+  } */
   
   .popScroll em {
     width: 42px;
