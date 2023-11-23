@@ -71,29 +71,54 @@
 <body>
 <!-- POPUP -->
   <!-- Close Box -->
-<!--   <div class="box">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Close Box -->
+  <div class="box">
     <span class="close"></span>
-    <div class="content">
-    </div>
-  </div> -->
+    <div class="content"></div>
+  </div>
   <!-- end -->
-  
+
   <!-- popup -->
-<!--   <div class="popScroll">
+  <div class="popScroll">
     <div class="popup">
       <span class="ribbon top-left ribbon-primary">
         <small>Hello!</small>
       </span>
       <h1>Event is Closed Now!!!</h1>
-      <div class="subscribe-widget">
-      </div>
-      <br>
+      <div class="subscribe-widget"></div>
       <h2>Excellencia MUN 2023</h2>
       <div id="option">
-        <a href="index.html" id="close" class="boxi closei">Close</a>
+        <a href="home.html" id="home" class="boxi">Home</a>
+        <a href="#" id="close" class="boxi closei">Close</a>
       </div>
     </div>
-  </div> -->
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      var $box = $(".box");
+      var $popScroll = $(".popScroll");
+
+      $('#close').click(function() {
+        $popScroll.hide();
+        $("body").removeClass("overlay");
+      });
+    });
+  </script>
+
+</body>
+</html>
 <!--   POPUP closed -->
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-center">
